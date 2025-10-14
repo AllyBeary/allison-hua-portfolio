@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/allison-hua-portfolio/static/css/main.51e76941.css",
-    "main.js": "/allison-hua-portfolio/static/js/main.20c9c023.js",
+    "main.js": "/allison-hua-portfolio/static/js/main.bea414b1.js",
     "static/media/Allison Hua Mobile Educational Games.gif": "/allison-hua-portfolio/static/media/Allison Hua Mobile Educational Games.0c459f66491c5843342e.gif",
     "static/media/Allison Hua Mobile Educational Games.png": "/allison-hua-portfolio/static/media/Allison Hua Mobile Educational Games.68c35d957c7a3baa5f0d.png",
     "static/media/Allison Hua presentation.jpg": "/allison-hua-portfolio/static/media/Allison Hua presentation.4d54a4046d46b2b7ea4c.jpg",
@@ -9,10 +9,10 @@
     "static/media/Allison Hua headshot.jpeg": "/allison-hua-portfolio/static/media/Allison Hua headshot.f9c8fbc438126b849999.jpeg",
     "index.html": "/allison-hua-portfolio/index.html",
     "main.51e76941.css.map": "/allison-hua-portfolio/static/css/main.51e76941.css.map",
-    "main.20c9c023.js.map": "/allison-hua-portfolio/static/js/main.20c9c023.js.map"
+    "main.bea414b1.js.map": "/allison-hua-portfolio/static/js/main.bea414b1.js.map"
   },
   "entrypoints": [
     "static/css/main.51e76941.css",
-    "static/js/main.20c9c023.js"
+    "static/js/main.bea414b1.js"
   ]
 }
