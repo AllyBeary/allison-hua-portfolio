@@ -16,7 +16,7 @@ export default function Contact() {
     {
       type: "Portfolio",
       value: "AllyBeary.github.io/allison-hua-portfolio",
-      link: "https://AllyBeary.github.io/allison-hua-portfolio",
+      link: "https://AllyBeary.github.io/allison-hua-portfolio/",
     },
     {
       type: "Email",

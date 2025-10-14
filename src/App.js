@@ -48,7 +48,7 @@ function TabBar() {
 
 export default function App() {
   return (
-    <Router basename="/allison-hua-portfolio">
+    <Router basename={process.env.PUBLIC_URL}>
       <TabBar />
       <a href="#main" className="visually-hidden-focusable">
         Skip to main content
