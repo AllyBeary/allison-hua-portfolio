@@ -2,7 +2,7 @@
   "name": "a1-portfolio-allybeary",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AllyBeary.github.io/portfolio",
+  "homepage": "https://AllyBeary.github.io/allison-hua-portfolio",
   "dependencies": {
     "@mui/material": "^7.3.2",
     "@testing-library/dom": "^10.4.1",
