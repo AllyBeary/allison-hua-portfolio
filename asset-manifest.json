@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.51e76941.css",
+    "main.js": "/portfolio/static/js/main.10f7d027.js",
+    "static/media/Allison Hua Mobile Educational Games.gif": "/portfolio/static/media/Allison Hua Mobile Educational Games.0c459f66491c5843342e.gif",
+    "static/media/Allison Hua Mobile Educational Games.png": "/portfolio/static/media/Allison Hua Mobile Educational Games.68c35d957c7a3baa5f0d.png",
+    "static/media/Allison Hua presentation.jpg": "/portfolio/static/media/Allison Hua presentation.4d54a4046d46b2b7ea4c.jpg",
+    "static/media/Allison Hua resume.pdf": "/portfolio/static/media/Allison Hua resume.c0222138620a81c99e35.pdf",
+    "static/media/Allison Hua headshot.jpeg": "/portfolio/static/media/Allison Hua headshot.f9c8fbc438126b849999.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.51e76941.css.map": "/portfolio/static/css/main.51e76941.css.map",
+    "main.10f7d027.js.map": "/portfolio/static/js/main.10f7d027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51e76941.css",
+    "static/js/main.10f7d027.js"
+  ]
+}
