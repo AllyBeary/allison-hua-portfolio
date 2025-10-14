@@ -48,7 +48,7 @@ function TabBar() {
 
 export default function App() {
   return (
-    <Router basename="/a1-portfolio-AllyBeary">
+    <Router basename="/allison-hua-portfolio">
       <TabBar />
       <a href="#main" className="visually-hidden-focusable">
         Skip to main content

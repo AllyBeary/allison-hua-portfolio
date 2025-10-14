@@ -15,8 +15,8 @@ export default function Contact() {
     },
     {
       type: "Portfolio",
-      value: "uci-inf-133.github.io/a1-portfolio-AllyBeary/",
-      link: "https://uci-inf-133.github.io/a1-portfolio-AllyBeary/",
+      value: "AllyBeary.github.io/allison-hua-portfolio",
+      link: "https://AllyBeary.github.io/allison-hua-portfolio",
     },
     {
       type: "Email",
