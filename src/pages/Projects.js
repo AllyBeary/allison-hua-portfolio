@@ -4,20 +4,30 @@ import educationalGamesPreview from "../assets/images/Allison Hua Mobile Educati
 
 const projectList = [
   {
-    name: "Mobile Educational Games",
-    description: "A mobile app made with React Native",
+    name: "VOX(EL)",
+    description: "Ambient Intelligent Architecture made with Python featuring ASR-corrections, LLM improvements, and RAG implementation",
+    link: "https://github.com/AllyBeary/EMS-Handoff",
+  },
+  {
+    name: "MyPolicy",
+    description: "Full-Stack Document text Editor and Approval Workflow Builder made with React and Node.js featuring MongoDB Atlas for database and AWS S3 for storage",
+    link: "",
+  },
+  {
+    name: "Web Search Engine",
+    description: "A program made with Python featuring multithreading, tokenization, comprehensive duplicate detection, and efficient information retrieval",
+    link: "https://github.com/cs121-s25-grapes/assignment3",
+  },
+  {
+    name: "Brain Bites",
+    description: "A mobile application made with React Native featuring user authentication and API integration for dynamic input and real-time response",
     preview: educationalGamesPreview,
     image: educationalGamesDemo,
     link: "https://github.com/AllyBeary/team-education-feature",
   },
   {
-    name: "Web Search Engine",
-    description: "A program made with Python",
-    link: "https://github.com/cs121-s25-grapes/assignment3",
-  },
-  {
-    name: "Web Fashion Closet Makeover",
-    description: "A web app made with JavaScript, HTML, and CSS",
+    name: "Fashion Makeover",
+    description: "A web application made with JavaScript, HTML, and CSS",
     link: "https://github.com/AllyBeary/snap-engineering-academy-project-assessment",
   },
 ];
@@ -34,7 +44,7 @@ export default function Projects() {
         {projectList.map((project) => (
           <article
             key={project.name}
-            className="col-md-4 mb-"
+            className="col-md-4 mb-4"
             aria-label={`${project.name} Project`}
           >
             <div className="card shadow-sm">
@@ -52,7 +62,7 @@ export default function Projects() {
                       <img
                         src={project.preview}
                         data-gif={project.image}
-                        className="card-img-top "
+                        className="card-img-top"
                         alt={`${project.name} preview`}
                         style={{ objectFit: "cover" }}
                         onMouseEnter={(e) =>
@@ -63,21 +73,37 @@ export default function Projects() {
                         }
                         aria-label={`${project.name} demo gif`}
                       />
-                      <figcaption class="text-secondary fs-6">
+                      <figcaption className="text-secondary fs-6">
                         Gif of Mobile Educational Games Project Demo
                       </figcaption>
                     </figure>
                   </>
                 )}
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary mt-auto"
-                  aria-label={`View ${project.name} project on GitHub`}
-                >
-                  View Project
-                </a>
+                {project.link ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary mt-auto"
+                    aria-label={`View ${project.name} project on GitHub`}
+                  >
+                    View Project
+                  </a>
+                ) : (
+                  <div className="mt-auto">
+                    <button
+                      type="button"
+                      className="btn btn-secondary w-100"
+                      disabled
+                      aria-label={`${project.name} project link is not available yet`}
+                    >
+                      Link Unavailable
+                    </button>
+                    <p className="text-secondary fs-6 text-center mt-2 mb-0">
+                      <em>Proprietary Work</em>
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           </article>

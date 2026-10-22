@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import headshot from "../assets/images/Allison Hua headshot.jpeg";
+import headshot from "../assets/images/Allison Hua headshot.jpg";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
               src={headshot}
               alt="Headshot of Allison Hua smiling at the camera"
               className="img-fluid rounded shadow"
-              style={{ maxWidth: "250px" }}
+              style={{ maxWidth: "250px"}}
             />
             <figcaption className="visually-hidden">
               Professional headshot of Allison Hua

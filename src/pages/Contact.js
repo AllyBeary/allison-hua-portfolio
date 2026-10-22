@@ -100,7 +100,7 @@ export default function Contact() {
           aria-expanded={showForm}
           aria-controls="emailForm"
         >
-          <em>You could send an email right now.</em> ⬇️
+          <em>Let's talk ASAP.</em> ⬇️
         </button>
       </p>
       {/* Email Form */}

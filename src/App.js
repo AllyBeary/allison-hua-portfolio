@@ -65,7 +65,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-      <footer className="text-center py-4 bg-light">© 2025 Allison Hua</footer>
+      <footer className="text-center py-4 bg-light">© 2026 Allison Hua</footer>
     </Router>
   );
 }
